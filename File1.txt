@@ -3,14 +3,18 @@ class HelloWorld {
 	public static void displayHello(String str){
 		System.out.println();
 	}
-	resolveBugMethod(){
+	static void bugResolve(int bugId){
 		// bug resolved
 	}
+
+
 	public static void main(String[] args){
 		
 		HelloWorld obj = new HelloWorld();
 		obj.displayHello("Hey Git..!!!Conflict here");
 		displayHello("Welcome to GIT");
-		obj.resolveBugMethod();
+		int bugId=777;
+		bugResolve(bugId);
+
 	}
 }
