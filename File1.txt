@@ -1,9 +1,9 @@
 class HelloWorld {
-	void displayHello(){
-		System.out.println("Welcome to GIT");
+	static void displayHello(String str){
+		System.out.println();
 	}
 	public static void main(String[] args){
 		
-		System.out.println("HelloWorld");
+		displayHello("Welcome to GIT");
 	}
 }
